@@ -1,7 +1,7 @@
 pipeline{
   agent none
   stages{
-    stage('test){
+    stage('test'){
        agent any
           steps {
             sh "echo this is the test for pipeline"
